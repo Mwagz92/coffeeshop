@@ -120,8 +120,9 @@ footer {
   width: 99%;
 }
 
-.navbar-expand-lg {
-justify-content:flex-end;
+.menu-header {
+  margin: 2px;
+  padding: 4px;
 }
 
 #menu {
@@ -138,4 +139,12 @@ justify-content:flex-end;
   width: 100%;
   margin: 0px;
   padding: 10px 0px;
+}
+
+.col {
+ padding: 0px;
+}
+
+.fit {
+  min-width: 50.16px;
 }

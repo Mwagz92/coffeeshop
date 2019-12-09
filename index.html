@@ -1,4 +1,4 @@
-<!Doctype html>
+﻿<!Doctype html>
 <html>
     <head>
         <meta name="description" content="Generic Coffee Company offers delicous, non-generic coffee at a competive price.">
@@ -14,23 +14,18 @@
     </head>
     <body>
         <!-- Navigation popout in uppper right hand corner -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-            <img src="img/coffeelogo.png" width="100" height="50" class="d-inline-block align-top" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#menu">Menu</a>
-                    <a class="nav-item nav-link" href="#contact-us">Contact Us</a>
-                    <!-- Extra Navigation Link 
-                        <a class="nav-item nav-link disabled" href="#">Disabled</a>  -->
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-light navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" width="60px" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <ul class="navbar-nav ml-auto justify-content-center">
+           <a class="nav-item btn nav-btn active" href="#">Home <span class="sr-only">(current)</span></a>
+           <a class="nav-item btn nav-btn" href="#">Menu</a>
+           <a class="nav-item btn nav-btn" href="#">Contact Us</a>
+        </div>
+     </nav>
         <!-- End Navigation-->
         <!-- Start Main Content -->
         <div class="main_content">
@@ -38,12 +33,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
-                        <h1>A Coffee Company</h1>
+                        <h1>Coffee Company</h1>
                         <br><br><br><br><br><br><br>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-9 col-lg-6">
+                    <div class="col-8">
                         <h3 class="header-text ml-lg-2">May your coffee be strong, and your Monday be short</h3>
                     </div>
                 </div>
@@ -236,9 +231,9 @@
         <!-- Coffee Menu -->
         <div class="menu-section info-box">
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 menu-header">
                     <h5>
-                    Coffee</h4>
+                    Coffee</h5>
                 </div>
                 <div class="col menu-header">
                     <h5 class="orange-text">
@@ -255,7 +250,7 @@
             </div>
             <hr class="orange-line full-width">
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Americano</p>
                 </div>
                 <div class="col">
@@ -269,7 +264,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Latte</p>
                 </div>
                 <div class="col">
@@ -283,7 +278,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Mocha</p>
                 </div>
                 <div class="col">
@@ -297,7 +292,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Cappacino</p>
                 </div>
                 <div class="col">
@@ -311,7 +306,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Caramel Machiato</p>
                 </div>
                 <div class="col">
@@ -325,7 +320,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Raspberry White</p>
                 </div>
                 <div class="col">
@@ -339,7 +334,7 @@
                 </div>
             </div>
             <div class="row center-text">
-                <div class="col-4 left">
+                <div class="col-3 left">
                     <p>Dolce De Latte</p>
                 </div>
                 <div class="col">
@@ -490,31 +485,34 @@
         </div>
         <div class="container center-text">
             <div class="row justify-content-center">
-                <div class="col-2" >
-                    <a class="btn btn-social-icon btn-facebook fit-image">
-                    <span class="fa fa-facebook"></span>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a class="btn btn-social-icon btn-yelp">
-                    <span class="fa fa-yelp"></span>
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a class="btn btn-social-icon btn-twitter">
-                    <span class="fa fa-twitter"></span>
-                    </a>
-                </div>
-                <div class="col-2">
+                <div class="col-xs-1 fit">
                     <a class="btn btn-social-icon btn-instagram">
                     <span class="fa fa-instagram"></span>
                     </a>
                 </div>
+<!--
+                <div class="col-xs-1 fit" >
+                    <a class="btn btn-social-icon btn-facebook fit-image">
+                    <span class="fa fa-facebook"></span>
+                    </a>
+                </div>
+-->
+                <div class="col-xs-1 fit">
+                    <a class="btn btn-social-icon btn-yelp">
+                    <span class="fa fa-yelp"></span>
+                    </a>
+                </div>
+                <div class="col-xs-1 fit">
+                    <a class="btn btn-social-icon btn-twitter">
+                    <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+
             </div>
             <!-- Social buttons -->
         </div>
         <!-- Copyright -->
-        <div class="footer-copyright text-center pt-2">© 2019 Copyright <a href="https://intricondesigns.com"> Intricon Designs.</a>
+        <div class="footer-copyright text-center pb-3 pt-2">© 2019 Copyright <a href="https://intricondesigns.com"> Intricon Designs.</a>
         </div>
         <!-- Copyright -->
     </footer>
